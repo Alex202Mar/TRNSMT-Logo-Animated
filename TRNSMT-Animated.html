@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        position: relative;
+        height: 114px;
+        width: 622px;
+        background-image: url("TRNSMT.png");
+      }
+
+      .semi-circle {
+        width: 1px;
+        height: 1px;
+        border: 3px solid black;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: growOutwards 4s ease-in-out infinite normal;
+        animation-delay: 4s;
+      }
+
+      .small-semi-circle {
+        width: 190px;
+        height: 95px;
+        border: 3px solid black;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: growOutwards 4s ease-in-out infinite normal;
+        animation-delay: 3.5s;
+      }
+      .smaller-semi-circle {
+        width: 180px;
+        height: 90px;
+        border: 3px solid black;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: growOutwards 4s ease-in-out infinite normal;
+        animation-delay: 3s;
+      }
+      .tiny-semi-circle {
+        width: 170px;
+        height: 85px;
+        border: 3px solid black;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: growOutwards 4s ease-in-out infinite normal;
+        animation-delay: 2.5s;
+      }
+      .tinyer-semi-circle {
+        width: 170px;
+        height: 85px;
+        border: 3px solid black;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: growOutwards 4s ease-in-out infinite normal;
+        animation-delay: 2s;
+      }
+      .micro-semi-circle {
+        width: 170px;
+        height: 85px;
+        border: 3px solid black;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: growOutwards 4s ease-in-out infinite normal;
+        animation-delay: 1.5s;
+      }
+      .microscopic-semi-circle {
+        width: 170px;
+        height: 85px;
+        border: 3px solid black;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: growOutwards 4s ease-in-out infinite normal;
+        animation-delay: 1s;
+      }
+      .timmy-semi-circle {
+        width: 170px;
+        height: 85px;
+        border: 3px solid black;
+        border-radius: 100px 100px 0 0;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: growOutwards 4s ease-in-out infinite normal;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes growOutwards {
+        0% {
+          width: 0px;
+          height: 0px;
+        }
+        100% {
+          width: 644px;
+          height: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: black">
+    <div class="container">
+      <div class="semi-circle"></div>
+      <div class="small-semi-circle"></div>
+      <div class="smaller-semi-circle"></div>
+      <div class="tiny-semi-circle"></div>
+      <div class="tinyer-semi-circle"></div>
+      <div class="micro-semi-circle"></div>
+      <div class="microscopic-semi-circle"></div>
+      <div class="timmy-semi-circle"></div>
+      <!-- Add more small semi-circles as needed -->
+    </div>
+  </body>
+</html>
